@@ -1,0 +1,12 @@
+###
+POST http://localhost:2500/api/controls HTTP/1.1
+Content-Type: application/json
+
+{
+    "porcentajelectura": 89,
+    "porcentajescritura": 80,
+    "edporcentaje_escucha_habla": 40
+}
+
+###
+GET http://localhost:2500/api/controls HTTP/1.1
